@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gemini Pro Chat</title>
+</head>
+<body>
+<h1>Gemini Pro Chat</h1>
+<p>This is a simple chat application that uses Gemini Pro for speech-to-text and text-to-speech.</p>
+<form action="/stt" method="post" enctype="multipart/form-data">
+<input type="file" name="audio_data">
+<input type="submit" value="Transcribe">
+</form>
+<form action="/tts" method="post">
+<input type="text" name="text">
+<input type="submit" value="Speak">
+</form>
+</body>
+</html>
+
+
